@@ -1,0 +1,53 @@
+LINUX / GIT BASH COMMANDS CHEAT SHEET (M4ACE)
+
+1. Navigation
+- pwd            : show current folder path
+- ls             : list files/folders
+- ls -a          : list all (including hidden)
+- ls -l          : list with permissions/details
+- cd folder      : enter a folder
+- cd ..          : go back one folder
+- cd ~           : go to home directory
+- clear          : clear terminal screen
+
+2. Files & Folders
+- mkdir name     : create a folder
+- mkdir -p a/b   : create nested folders
+- touch file.txt : create empty file
+- cp a b         : copy file a to b
+- cp -r a b      : copy folder a to b
+- mv a b         : rename/move a to b
+- rm file.txt    : delete file
+- rm -r folder   : delete folder
+- cat file.txt   : display file contents
+- less file.txt  : view file page-by-page
+- head file.txt  : show first lines
+- tail file.txt  : show last lines
+
+3. Searching
+- grep "word" file.txt     : search word in a file
+- grep -n "word" file.txt  : search + show line numbers
+- grep -i "word" file.txt  : case-insensitive search
+- grep -R "word" folder    : search recursively in folder
+- find . -name "*.js"      : find files by name pattern
+
+4. Permissions
+- chmod +x file.sh     : make script executable
+- chmod -x file.sh     : remove execute permission
+- chmod a-w file.txt   : remove write permission for all
+- chmod 644 file.txt   : rw for owner, read for others
+- chmod 755 file.sh    : full for owner, execute/read for others
+- ls -l                : view permissions
+
+5. Useful Helpers
+- echo "text"          : print text to terminal
+- echo "text" > file   : overwrite file with text
+- echo "text" >> file  : append text to file
+- whoami               : show current username
+
+6. Git Basics
+- git init                 : start a git repo
+- git status               : check repo status
+- git add .                : stage changes
+- git commit -m "msg"      : commit changes
+- git log --oneline        : view commit history

@@ -1,0 +1,5 @@
+This is a backend practice note.
+Remember to check authentication logic.
+TODO: Add validation to user input.
+TODO: Improve error handling.
+Passwords should never be logged.
