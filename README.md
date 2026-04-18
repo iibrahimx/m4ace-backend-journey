@@ -1,21 +1,67 @@
-# Backend Journey
+# M4ACE Backend Journey
 
 This repository documents my backend development learning journey as part of the **M4ACE (Mentorship for Acceleration)** program.
 
 ## Goals
 
-- Strengthen backend fundamentals using JavaScript and Node.js
-- Understand Git and GitHub workflows used in real teams
-- Practice clean commit history and branching strategies
-- Learn collaboration through pull requests and open-source contributions
+- Strengthen my backend development fundamentals using JavaScript
+- Improve my understanding of Git and GitHub workflows
+- Practice solving programming exercises consistently
+- Build a solid foundation in modern JavaScript and backend concepts
 
-## What this repo will contain
+## What this repository contains
 
-- Weekly learning logs
-- Practice projects and experiments
-- Notes on backend concepts
-- Git workflow exercises (branches, rebases, PRs, conflicts)
+- Weekly assignment solutions
+- Practice exercises and experiments
+- JavaScript fundamentals
+- Git and GitHub workflow practice
+- Notes and learning progress
+
+## Weekly Progress
+
+### Week 1
+
+- Development environment setup
+- Command line practice
+- Bash scripting
+- Pseudocode practice
+
+### Weeks 2–4
+
+- Variables and data types
+- Operators and conditionals
+- String manipulation
+- Loops
+- Array methods
+- Palindrome function
+
+### Week 5
+
+- Objects fundamentals
+- Destructuring
+- Spread and rest operators
+
+### Week 6
+
+- Arrow functions
+- Map and Set
+- Optional chaining
+- Nullish coalescing
+
+### Week 7
+
+- Callbacks
+- Promises
+- Promise chaining
+- Error handling
+
+### Week 8
+
+- Async/await basics
+- Try/catch error handling
+- Sequential execution
+- Parallel execution
 
 ## Status
 
-This is a learning-in-progress repository. Improvements will be added incrementally.
+This repository is still a work in progress and will continue to be updated as I learn more.
