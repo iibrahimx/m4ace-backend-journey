@@ -1,6 +1,6 @@
 console.log("=== ASYNC/AWAIT SIMPLE PRACTICE ===");
 
-// helper function
+// helper function that returns a promise after some time
 function orderFood(food, time, shouldFail = false) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -14,7 +14,7 @@ function orderFood(food, time, shouldFail = false) {
 }
 
 // ========================================
-// 1. Promise-based version
+// Task 1. Promise-based version
 // ========================================
 function runWithPromises() {
   console.log("\n1. Promise version:");
@@ -39,7 +39,7 @@ function runWithPromises() {
 runWithPromises();
 
 // ========================================
-// 2. Async/Await version
+// Task 2. Async/Await version
 // ========================================
 async function runWithAsyncAwait() {
   console.log("\n2. Async/Await version:");
@@ -61,7 +61,7 @@ async function runWithAsyncAwait() {
 runWithAsyncAwait();
 
 // ========================================
-// 3. Error handling with try/catch
+// Task 3. Error handling with try/catch
 // ========================================
 async function runWithErrorHandling() {
   console.log("\n3. Error handling:");
@@ -81,7 +81,7 @@ async function runWithErrorHandling() {
 runWithErrorHandling();
 
 // ========================================
-// 4. Sequential execution
+// Task 4. Sequential execution
 // ========================================
 async function runSequentialTasks() {
   console.log("\n4. Sequential:");
@@ -99,7 +99,7 @@ async function runSequentialTasks() {
 runSequentialTasks();
 
 // ========================================
-// 5. Parallel execution
+// Task 5. Parallel execution
 // ========================================
 async function runParallelTasks() {
   console.log("\n5. Parallel:");
