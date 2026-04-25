@@ -62,6 +62,14 @@ This repository documents my backend development learning journey as part of the
 - Sequential execution
 - Parallel execution
 
+### Week 9
+
+- File system operations (reading, writing, copying, renaming, deleting files)
+- Checking file existence and getting file information
+- Working with directories (creating, reading, deleting)
+- Finding files by extension
+- Generating simple directory tree structures
+
 ## Status
 
 This repository is still a work in progress and will continue to be updated as I learn more.
