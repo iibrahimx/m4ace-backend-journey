@@ -70,6 +70,14 @@ This repository documents my backend development learning journey as part of the
 - Finding files by extension
 - Generating simple directory tree structures
 
+### Week 12
+
+- Introduction to Express.js
+- Basic Express server setup
+- Middleware practice
+- Request and response handling
+- Simple blog API with CRUD operations
+
 ## Status
 
 This repository is still a work in progress and will continue to be updated as I learn more.
